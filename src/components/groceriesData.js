@@ -1,9 +1,7 @@
 const Groceries = [
-    {id:"1",
-     name:"Kellogs"   
+    {
+        id: "1",
+        name: "Kellogs"
     }
-
-
-
 ]
 export default Groceries
