@@ -1,19 +1,19 @@
 import React from "react"
 
 class Groceries extends React.Component {
-    constructor(){
+    constructor(props) {
         super()
+        console.log(props)
         this.state = {
-            key: id
+            ...props
         }
     }
-    render(){
-    return (
-        <div>
-            <h2>{this.state.key}</h2>
-           
-        </div>
-    )
+    render() {
+        return (
+            <div>
+                <h2>{this.state.id}</h2>
+            </div>
+        )
     }
 }
 
